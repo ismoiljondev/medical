@@ -1,18 +1,12 @@
+import { Route, Routes } from "react-router-dom";
 import "./App.css";
-import { Button } from "./components/ui/button";
+import { SignupForm } from "./components/login/login";
 
 function App() {
 	return (
-		<>
-			<Button variant={"customBtn"}>Submit</Button>
-			<Button variant={"customBtn"}>Submit</Button>
-			<Button variant={"customBtn"}>Submit</Button>
-			<Button variant={"customBtn"} className="bg-green-600">
-				Submit
-			</Button>
-			<Button variant={"customBtn"}>Submit</Button>
-			<Button variant={"customBtn"}>Submit</Button>
-		</>
+		<Routes>
+			<Route element={<SignupForm />} path="*" />
+		</Routes>
 	);
 }
 
