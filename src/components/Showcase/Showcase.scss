@@ -1,5 +1,32 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
-
 .showcase {
-  height: 100svh;
+  background: #fafafa;
+  padding: 100px;
+  button {
+    border-radius: 5px;
+
+    /* primary-color */
+    border: 1px solid rgb(255, 104, 91);
+    padding: 15px 40px;
+
+    /* btn-text */
+    color: rgb(255, 104, 91);
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 22px;
+    text-align: center;
+
+    transition: all 250ms;
+    &:hover {
+      color: rgb(255, 255, 255);
+      background: rgb(255, 104, 91);
+    }
+  }
+  .container {
+    .showcase-cards {
+      display: flex;
+      justify-content: space-between;
+      gap: 31px;
+    }
+  }
 }
