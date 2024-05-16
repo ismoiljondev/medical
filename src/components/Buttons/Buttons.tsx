@@ -4,7 +4,6 @@ import arrow from "../../../public/Navbar/icn arrow-right .icn-xs.png";
 
 interface props {
   children: any;
-  onClick: any;
 }
 
 export const Default = (props: props) => {
