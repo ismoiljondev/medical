@@ -67,6 +67,15 @@ gap between components changed to default gap (10px), and `headline`s font size 
 if u want big gap between components with default size of `headline`
 just add `normal_headline` with comma after `showcase` in `types` prop
 
+```tsx
+<Title
+  types="showcase, normal_headline"
+  header="line"
+  headline="Headline"
+  subHeadline="SubHeadline"
+/>
+```
+
 ![Alt text](image-3.png)
 
 ---
