@@ -1,7 +1,7 @@
 // import { Route, Routes } from "react-router-dom";
 import "./App.css";
 // import { SignupForm } from "./components/login/login";
-import Services from "./components/med-services/Services";
+import Services from "./components/med-services/Services.tsx";
 
 function App() {
   return <Services />;

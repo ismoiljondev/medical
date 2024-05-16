@@ -25,11 +25,17 @@ module.exports = {
     },
     extend: {
       colors: {
+        "pale-green": "hsl(var(--pale-green))",
+        "muted-color": "hsl(var(--muted-color))",
+        "second-text-color": "hsl(var(--second-text-color))",
+        "dark-background-color": "hsl(var(--dark-background-color))",
+        "primary-text-color": "hsl(var(--primary-text-color))",
+        azure: "hsl(var(--azure))",
+        danger: "hsl(var(--danger))",
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
         background: "hsl(var(--background))",
-        azure: "hsl(var(--azure))",
         foreground: "hsl(var(--foreground))",
         primary: {
           DEFAULT: "hsl(var(--primary))",

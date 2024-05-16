@@ -4,8 +4,14 @@
 
 @layer base {
   :root {
-    /* --background: 0 0% 100%; */
+    --pale-green: 177 33% 51%;
+    --muted-color: 0 0% 74%;
+    --second-text-color: 0 0% 45%;
+    --dark-background-color: 226 42% 26%;
+    --primary-text-color: 5 100% 68%;
+    --danger: 0 78% 58%;
     --azure: 174 62% 94%;
+    --background: 0 0% 100%;
     --foreground: 222.2 84% 4.9%;
 
     --card: 0 0% 100%;
