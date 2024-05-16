@@ -3,22 +3,9 @@
   padding-top: 100px;
 }
 .showcase button {
-  border-radius: 5px;
   /* primary-color */
-  border: 1px solid rgb(255, 104, 91);
-  padding: 15px 40px;
+  padding: 15px 40px !important;
   /* btn-text */
-  color: rgb(255, 104, 91);
-  font-family: Montserrat;
-  font-size: 14px;
-  font-weight: 700;
-  line-height: 22px;
-  text-align: center;
-  transition: all 250ms;
-}
-.showcase button:hover {
-  color: rgb(255, 255, 255);
-  background: rgb(255, 104, 91);
 }
 .showcase .container .showcase-cards {
   display: flex;

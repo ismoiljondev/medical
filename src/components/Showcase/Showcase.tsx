@@ -118,6 +118,7 @@ import {
   CarouselContent,
   CarouselItem,
 } from "@/components/ui/carousel";
+import { Default, Outline } from "../Buttons/Buttons";
 
 const Showcase = () => {
   return (
@@ -136,8 +137,8 @@ const Showcase = () => {
               }
             />
             <div className="flex gap-3 max-xl:justify-center max-sm:flex-col">
-              <button>Get Quote Now</button>
-              <button>Learn More</button>
+              <Default name={"Get Quote Now"} />
+              <Outline name={"Learn More"} />
             </div>
           </div>
           <img

@@ -1,0 +1,116 @@
+.navbar-overlay {
+  background-color: rgba(37, 43, 66, 0.507);
+  z-index: 99;
+  height: 100vh !important;
+  position: fixed;
+  width: 100vw !important;
+}
+
+.navbar {
+  padding: 20px 10%;
+
+  .mob {
+    display: none;
+
+    .mob-logo {
+      display: none;
+      color: rgb(37, 43, 66);
+    }
+  }
+
+  .left {
+    .logo {
+      color: rgb(37, 43, 66);
+    }
+
+    ul {
+      /* link */
+      color: rgb(115, 115, 115);
+      font-size: 14px;
+      font-weight: 700;
+      line-height: 24px;
+      letter-spacing: 0.2px;
+      text-align: center;
+
+      .ghost {
+        display: none;
+      }
+
+      .default {
+        display: none;
+      }
+    }
+  }
+
+  .navbar-toggle {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .navbar {
+    .mob {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 5px;
+
+      .mob-logo {
+        display: flex;
+      }
+    }
+
+    .navbar-toggle {
+      display: block;
+      font-size: 1.5rem;
+      background: none;
+      border: none;
+      color: white;
+      cursor: pointer;
+      padding: 0;
+      margin: 0;
+      color: rgb(255, 104, 91);
+    }
+
+    .left {
+      display: flex;
+      flex-direction: column;
+      position: absolute;
+      z-index: 100;
+      top: 0;
+      justify-content: start;
+      left: 0;
+      background-color: white;
+      border-right: 2px solid rgb(37, 43, 66);
+      height: 100vh;
+      padding-top: 4rem;
+      padding: 4rem 2rem;
+      transition: all 0.3s ease-in-out;
+      transform: translateX(-200%);
+
+      ul {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        .ghost {
+          display: flex;
+        }
+
+        .default {
+          display: flex;
+        }
+      }
+    }
+
+    .right {
+      display: none;
+    }
+  }
+
+  .navbar.open .left {
+    transform: translateX(0);
+    display: flex;
+    justify-content: start;
+  }
+}
