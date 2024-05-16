@@ -113,20 +113,29 @@ const cards = [
   },
 ];
 
+import {
+  Carousel,
+  CarouselContent,
+  CarouselItem,
+} from "@/components/ui/carousel";
+
 const Showcase = () => {
   return (
     <div className="showcase">
       <div className="container flex flex-col gap-20">
         <div className="relative">
-          <div className="flex flex-col gap-9">
+          <div className="flex flex-col gap-9 relative z-[1]">
             <Title
               types="showcase"
               header="Join Us"
               headline="A Great Place to Receive Care"
               subHeadline="Medical Recover is most focused in helping you 
             discover your most beauiful smile"
+              className={
+                "max-xl:text-center max-xl:justify-center max-xl:items-center"
+              }
             />
-            <div className="flex gap-3">
+            <div className="flex gap-3 max-xl:justify-center max-sm:flex-col">
               <button>Get Quote Now</button>
               <button>Learn More</button>
             </div>
@@ -134,7 +143,7 @@ const Showcase = () => {
           <img
             src="/imgs/showcase-doctor.svg"
             alt=""
-            className="absolute bottom-1/3 translate-y-1/2 right-0 h-[700px] w-[63%] object-cover object-top"
+            className="absolute bottom-1/3 max-md:-bottom-1/2 translate-y-1/2 right-0 h-[700px] w-[65%] object-cover object-top max-xl:w-full max-xl:opacity-50 max-xl:object-contain max-xl:blur"
           />
           <div className="img-bg"></div>
         </div>
@@ -142,6 +151,22 @@ const Showcase = () => {
           {cards.map((card, i) => {
             return <Card icon={card.icon} title={card.title} key={i} />;
           })}
+        </div>
+        <div className="xl:hidden p-4 overflow-x-clip">
+          <Carousel className="">
+            <CarouselContent className="overflow-visible">
+              {cards.map((card, i) => {
+                return (
+                  <CarouselItem
+                    key={i}
+                    className="basis-1/2 select-none max-md:basis-full"
+                  >
+                    <Card icon={card.icon} title={card.title} />
+                  </CarouselItem>
+                );
+              })}
+            </CarouselContent>
+          </Carousel>
         </div>
       </div>
     </div>

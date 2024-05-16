@@ -31,4 +31,14 @@
   right: 5px;
   border-radius: 50px;
   background: #000;
+}
+
+@media (max-width: 1280px) {
+  .showcase {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .showcase .container .showcase-cards {
+    display: none;
+  }
 }/*# sourceMappingURL=showcase.css.map */

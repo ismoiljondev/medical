@@ -8,6 +8,7 @@ interface Props {
   headline: string;
   subHeadline: string;
   link?: string;
+  className?: string;
 }
 
 const Title: FC<Props> = (props) => {
@@ -17,7 +18,7 @@ const Title: FC<Props> = (props) => {
         props.types?.replaceAll(" ", "").split(",")[0] == "showcase"
           ? "title-showcase"
           : ""
-      }`}
+      } ${props.className}`}
     >
       <h2
         className={`title__header ${

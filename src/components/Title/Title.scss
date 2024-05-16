@@ -38,16 +38,18 @@
   }
 }
 
-.title-showcase {
-  gap: 35px;
+@media (min-width: 768px) {
+  .title-showcase {
+    gap: 35px;
 
-  &__headline {
-    font-size: 58px;
-    line-height: 80px;
-  }
+    &__headline {
+      font-size: 58px;
+      line-height: 80px;
+    }
 
-  &__subhead {
-    font-size: 20px;
-    line-height: 30px;
+    &__subhead {
+      font-size: 20px;
+      line-height: 30px;
+    }
   }
 }
