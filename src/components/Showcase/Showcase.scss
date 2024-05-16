@@ -1,6 +1,6 @@
 .showcase {
   background: #fafafa;
-  padding: 100px;
+  padding-top: 100px;
   button {
     border-radius: 5px;
 
@@ -42,8 +42,6 @@
 
 @media (max-width: 1280px) {
   .showcase {
-    padding-left: 0;
-    padding-right: 0;
     .container {
       .showcase-cards {
         display: none;

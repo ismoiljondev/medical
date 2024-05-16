@@ -7,12 +7,15 @@ import Title from "./components/Title/Title";
 function App() {
   return (
     <>
-      {/* <Title
-        types="showcase" // add 'normal-headline' if u want default font size, not big for showcase
-        header="line" // type 'line' for line or text that will be displayed
-        headline="text"
-        subHeadline="text"
-      /> */}
+      <div className="container py-20">
+        <Title
+          types="showcase, normal_headline"
+          header="line"
+          headline="Headline"
+          subHeadline="SubHeadline"
+          link="/catalog"
+        />
+      </div>
       <Routes>
         <Route element={<Showcase />} path="*" />
       </Routes>
