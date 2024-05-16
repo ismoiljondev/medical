@@ -6,6 +6,7 @@ import { cn } from "@/lib/utils";
 import { IconBrandGoogle } from "@tabler/icons-react";
 import img from "@/img/img.svg";
 import Border from "../animatedBorder/border";
+
 export function SignupForm() {
 	const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
 		e.preventDefault();
