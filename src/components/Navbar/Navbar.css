@@ -82,9 +82,9 @@
       left: 0;
       background-color: white;
       border-right: 2px solid rgb(37, 43, 66);
-      width: 50%;
       height: 100vh;
       padding-top: 4rem;
+      padding: 4rem 2rem;
       transition: all 0.3s ease-in-out;
       transform: translateX(-200%);
 
