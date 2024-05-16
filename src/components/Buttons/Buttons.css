@@ -1,0 +1,52 @@
+:root {
+  --orange: rgb(255, 104, 91);
+}
+
+.ghost {
+  color: var(--orange) !important;
+  font-size: 14px;
+  font-weight: 700;
+  background: transparent !important;
+  line-height: 22px;
+  letter-spacing: 0.2px;
+  text-align: right;
+  padding: 15px 25px !important;
+}
+
+.default {
+  padding: 15px 25px !important;
+  background: var(--orange) !important;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid var(--orange);
+  gap: 5px;
+  transition: all 300ms ease-in-out;
+  position: relative;
+}
+
+.outline-def {
+  color: var(--orange) !important;
+  font-size: 14px;
+  font-weight: 700;
+  background: transparent !important;
+  line-height: 22px;
+  letter-spacing: 0.2px;
+  text-align: right;
+  padding: 15px 25px !important;
+  border: 2px solid var(--orange) !important;
+}
+
+.OutlineRadius-def {
+    color: var(--orange) !important;
+    font-size: 14px;
+    font-weight: 700;
+    background: transparent !important;
+    line-height: 22px;
+    letter-spacing: 0.2px;
+    text-align: right;
+    padding: 15px 25px !important;
+    border: 2px solid var(--orange) !important;
+    border-radius: 37px !important;
+}
