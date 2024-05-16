@@ -36,7 +36,15 @@ const Title: FC<Props> = (props) => {
       >
         {props.headline}
       </h1>
-      <p className="title__subhead">{props.subHeadline}</p>
+      <p
+        className={`title__subhead ${
+          props.types?.replaceAll(" ", "").split(",")[0] == "showcase"
+            ? "title-showcase__subhead"
+            : ""
+        }`}
+      >
+        {props.subHeadline}
+      </p>
       {props.link && (
         <Link className="title__link" to={props.link}>
           Learn More {">"}

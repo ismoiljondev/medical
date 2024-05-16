@@ -6,7 +6,7 @@ const Showcase = () => {
   return (
     <div className="showcase">
       <div className="container">
-        <div>
+        <div className="grid grid-cols-2 justify-center items-center overflow-hidden">
           <Title
             types="showcase"
             header="Join Us"
@@ -14,6 +14,7 @@ const Showcase = () => {
             subHeadline="Medical Recover is most focused in helping you 
             discover your most beauiful smile"
           />
+          <img src="/imgs/showcase-doctor.svg" alt="" />
         </div>
       </div>
     </div>
