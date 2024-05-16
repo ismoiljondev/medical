@@ -23,7 +23,9 @@ it will look like this
 
 ![Alt text](image.png)
 
-###
+---
+
+if you type '"line"' in 'header' prop
 
 ```tsx
 <Title
@@ -34,11 +36,11 @@ it will look like this
 />
 ```
 
-if you type '"line"' in 'header' prop, it would look like this
+it would look like this
 
 ![Alt text](image-1.png)
 
-###
+---
 
 ```tsx
 <Title header="line" headline="Headline" subHeadline="SubHeadline" />
@@ -50,14 +52,14 @@ And also if you remove 'types' prop, it would look like in this photo
 
 gap between components changed to default gap (10px), and 'headline's font size changed also to default size
 
-###
+---
 
 if u want big gap between components with default size of 'headline'
 just add 'normal_headline' with comma after 'showcase' in 'types' prop
 
 ![Alt text](image-3.png)
 
-###
+---
 
 Also u can add link
 
