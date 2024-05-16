@@ -1,5 +1,4 @@
-import Ghost from "../Buttons/Ghost";
-import JoinUsButton from "../Buttons/JoinUs";
+import { Ghost, JoinUsButton } from "../Buttons/Buttons";
 import "./Navbar.css";
 
 interface props {
