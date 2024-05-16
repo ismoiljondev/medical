@@ -1,0 +1,53 @@
+.title {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  * {
+    font-family: Montserrat;
+  }
+  &__header,
+  &__link {
+    color: rgb(255, 104, 91);
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+  }
+
+  &__line {
+    background: rgb(231, 64, 64);
+
+    width: 94px;
+    height: 7px;
+  }
+
+  &__headline {
+    color: rgb(37, 43, 66);
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 50px;
+
+    max-width: 500px;
+  }
+  &__subhead {
+    color: rgb(115, 115, 115);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+
+    max-width: 496px;
+  }
+}
+
+.title-showcase {
+  gap: 35px;
+
+  &__headline {
+    font-size: 58px;
+    line-height: 80px;
+  }
+
+  &__subhead {
+    font-size: 20px;
+    line-height: 30px;
+  }
+}
