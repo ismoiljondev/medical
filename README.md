@@ -6,7 +6,17 @@ Fully completed showcase and titles
 
 - By [• Просто Кот ᓚᘏᗢ •](https://github.com/meed0ff)
 
-## Usage
+## Title usage
+
+To use Title, firstly import component 'Title'
+
+```tsx
+import Title from "@/components/Title/Title";
+```
+
+and after import, u can finally use it 👍
+
+---
 
 Here is for showcase with big gap (35px) between components, and with big size of 'headline'
 
