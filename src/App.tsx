@@ -1,13 +1,13 @@
 import { Route, Routes } from "react-router-dom";
 import "./App.css";
 import { SignupForm } from "./components/login/login";
-import Doctorscard from "./components/doctorscard/doctorscard";
+import Ourteam from "./components/ourteam/ourteam";
 
 function App() {
 	return (
 		<Routes>
 			<Route element={<SignupForm />} path="*" />
-			<Route element={<Doctorscard/>} path="doctors"/>
+			<Route element={<Ourteam/>} path="doctors"/>
 		</Routes>
 	);
 }
