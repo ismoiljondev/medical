@@ -1,0 +1,154 @@
+.footer {
+  padding: 30px 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  word-wrap: break-word;
+
+  .top {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    width: 100%;
+
+    .list {
+      display: flex;
+      flex-direction: column;
+      align-items: start;
+      justify-content: center;
+      text-align: center;
+      width: 20%;
+      gap: 10px;
+
+      h2 {
+        /* h5 */
+        color: rgb(37, 43, 66);
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 24px;
+        letter-spacing: 0.1px;
+        text-align: left;
+      }
+
+      a {
+        /* link */
+        color: rgb(115, 115, 115);
+        font-size: 15px;
+        font-weight: 700;
+        line-height: 24px;
+        letter-spacing: 0.2px;
+        text-align: left;
+
+        div {
+          display: flex;
+          gap: 10px;
+          word-break: break-all;
+
+          .img {
+            .dot {
+              width: 40px;
+              height: 30px;
+            }
+            .mail {
+              width: 26px;
+              height: 20px;
+            }
+
+            .call {
+              width: 22px;
+              height: 22px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .bottom {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 60px;
+    align-items: center;
+
+    h3 {
+      /* h6 */
+      color: rgb(115, 115, 115);
+      font-size: 14px;
+      font-weight: 700;
+      line-height: 24px;
+      letter-spacing: 0.2px;
+      text-align: left;
+    }
+
+    .social {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+    }
+  }
+}
+
+@media (max-width: 1000px) {
+  .footer {
+    .top {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      .list-4 {
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+
+        h2 {
+          font-size: 20px;
+        }
+
+        a {
+          .img {
+            .dot {
+              width: auto !important;
+              height: 30px;
+            }
+          }
+        }
+      }
+
+      .list-0 {
+        display: none;
+      }
+
+      .list-1 {
+        display: none;
+      }
+      .list-2 {
+        display: none;
+      }
+      .list-3 {
+        display: none;
+      }
+    }
+
+    .bottom {
+      h3 {
+        font-size: 12px;
+      }
+    }
+  }
+}
+
+@media (max-width: 400px) {
+  a {
+    .img {
+      .dot {
+        width: 40px !important;
+        height: 30px;
+      }
+    }
+  }
+}
