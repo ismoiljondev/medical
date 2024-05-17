@@ -1,11 +1,11 @@
 import { Route, Routes } from "react-router-dom";
+import { Meet } from "@/components/Meet/Meet"
 import "./App.css";
-import { SignupForm } from "./components/Register/login";
 
 function App() {
   return (
     <Routes>
-      <Route element={<SignupForm />} path="*" />
+      <Route element={<Meet></Meet>} path="*"></Route>
     </Routes>
   );
 }
