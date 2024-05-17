@@ -1,11 +1,11 @@
 import { Route, Routes } from "react-router-dom";
 import "./App.css";
-import { SignupForm } from "./components/Register/Register";
+import { Statistics } from "./components/Statistics/Statistics";
 
 function App() {
   return (
     <Routes>
-      <Route element={<SignupForm />} path="*" />
+      <Route element={<Statistics></Statistics>} path="*"></Route>
     </Routes>
   );
 }
