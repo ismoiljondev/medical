@@ -1,7 +1,6 @@
 import { Route, Routes } from "react-router-dom";
 import "./App.css";
-import { SignupForm } from "./components/login/login";
-import Ourteam from "./components/ourteam/ourteam";
+import { SignupForm } from "./components/Register/login";
 
 function App() {
 	return (
