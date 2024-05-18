@@ -1,11 +1,11 @@
 import { Route, Routes } from "react-router-dom";
-import { Meet } from "@/components/Meet/Meet"
 import "./App.css";
+import { Advice } from "./components/Advice/Advice";
 
 function App() {
   return (
     <Routes>
-      <Route element={<Meet></Meet>} path="*"></Route>
+      <Route element={<Advice></Advice>} path="*"></Route>
     </Routes>
   );
 }

@@ -1,0 +1,18 @@
+.title {
+    gap: 10px !important;
+}
+
+.title__headline {
+    font-size: 40px !important;
+    line-height: 50px !important;
+}
+
+.title__header {
+    line-height: 24px !important;
+}
+
+.title__subhead {
+    font-size: 14px !important;
+    line-height: 20px !important;
+    font-weight: 500 !important;
+}
