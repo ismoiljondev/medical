@@ -16,3 +16,36 @@
     line-height: 20px !important;
     font-weight: 500 !important;
 }
+
+@media (max-width: 1024px) {
+    .title__headline {
+        font-size: 36px !important;
+    }
+}
+
+@media (max-width: 800px) {
+    .title__headline {
+        font-size: 32px !important;
+    }
+
+    .title__subhead {
+        font-size: 13px !important;
+    }
+}
+
+@media (max-width: 680px) {
+    .title__headline {
+        font-size: 28px !important;
+        line-height: 40px !important;
+    }
+
+    .title__subhead {
+        font-size: 12px !important;
+    }
+}
+
+@media (max-width: 600px) {
+    .title__headline {
+        font-size: 24px !important;
+    }
+}
