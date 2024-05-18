@@ -57,13 +57,13 @@ const Navbar = ({ logo, listItems }: props) => {
 								<a href="#">{e}</a>
 							</li>
 						))}
-						<Ghost name="Login" />
-						<JoinUsButton name={`Join Us`} />
+						<Ghost name="Login" icon={undefined} />
+						<JoinUsButton name={`Join Us`} icon={undefined} />
 					</ul>
 				</div>
 				<div className={`right flex jus items-center gap-5`}>
-					<Ghost name="Login" />
-					<JoinUsButton name={`Join Us`} />
+					<Ghost name="Login" icon={undefined} />
+					<JoinUsButton name={`Join Us`} icon={undefined} />
 				</div>
 				<button
 					className="navbar-toggle text-black"

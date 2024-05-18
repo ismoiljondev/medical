@@ -3,20 +3,25 @@
   flex-direction: column;
   gap: 10px;
 }
+
 .title * {
   font-family: Montserrat;
 }
-.title__header, .title__link {
+
+.title__header,
+.title__link {
   color: rgb(255, 104, 91);
   font-size: 14px;
   font-weight: 700;
   line-height: 24px;
 }
+
 .title__line {
   background: rgb(231, 64, 64);
   width: 94px;
   height: 7px;
 }
+
 .title__headline {
   color: rgb(37, 43, 66);
   font-size: 40px;
@@ -24,6 +29,7 @@
   line-height: 50px;
   max-width: 500px;
 }
+
 .title__subhead {
   color: rgb(115, 115, 115);
   font-size: 14px;
@@ -36,12 +42,16 @@
   .title-showcase {
     gap: 35px;
   }
+
   .title-showcase__headline {
     font-size: 58px;
     line-height: 80px;
   }
+
   .title-showcase__subhead {
     font-size: 20px;
     line-height: 30px;
   }
-}/*# sourceMappingURL=Title.css.map */
+}
+
+/*# sourceMappingURL=Title.css.map */

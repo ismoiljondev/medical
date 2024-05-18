@@ -137,8 +137,8 @@ const Showcase = () => {
               }
             />
             <div className="flex gap-3 max-xl:justify-center max-sm:flex-col">
-              <Default name={"Get Quote Now"} />
-              <Outline name={"Learn More"} />
+              <Default name={"Get Quote Now"} icon={undefined} />
+              <Outline name={"Learn More"} icon={undefined} />
             </div>
           </div>
           <img
