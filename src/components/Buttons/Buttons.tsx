@@ -3,7 +3,8 @@ import "./Buttons.css";
 import arrow from "../../../public/Navbar/icn arrow-right .icn-xs.png";
 
 interface props {
-  name: any;
+  name: any,
+  icon: any;
 }
 
 export const Default = (props: props) => {
@@ -18,7 +19,7 @@ export const Default = (props: props) => {
 export const Ghost = (props: props) => {
   return (
     <Button variant={"ghost"} className="ghost" {...props}>
-      {props.name}
+      {props.name} {props.icon}
     </Button>
   );
 };
