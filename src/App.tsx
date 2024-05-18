@@ -5,6 +5,7 @@ import Showcase from "./components/Showcase/Showcase";
 import { Statistics } from "./components/Statistics/Statistics";
 import { Meet } from "./components/Meet/Meet";
 import Services from "./components/med-services/Services";
+import Ourteam from "./components/ourteam/ourteam";
 
 function App() {
 	return (
@@ -13,6 +14,7 @@ function App() {
 			<Statistics />
 			<Meet />
 			<Services />
+			<Ourteam />
 			<Routes>
 				<Route element={<SignupForm />} path="/login" />
 			</Routes>
