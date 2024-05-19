@@ -7,7 +7,7 @@ export default function Ourteam(props:Props){
     return(
         <>
         <div>
-            <div className="w-4/5 mx-auto my-0 pt-36 pb-36 my-16">
+            <div className="w-4/5 mx-auto  pt-36 pb-36 my-16">
 				<Title className="pb-24" header="Team" headline="Our Team" subHeadline="Problems trying to resolve the conflict between 
 the two major realms of Classical physics: Newtonian mechanics "/>
                 
