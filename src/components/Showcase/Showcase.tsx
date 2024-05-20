@@ -121,7 +121,7 @@ import { Default, Outline } from "../Buttons/Buttons";
 
 const Showcase = () => {
 	return (
-		<div className="showcase">
+		<div className="showcase w-full">
 			<div className="container flex flex-col gap-20">
 				<div className="relative">
 					<div className="flex flex-col gap-9 relative z-[1]">

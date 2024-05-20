@@ -5,8 +5,8 @@ import MeetImg from "@/img/meet.png";
 
 export const Meet = () => {
 	return (
-		<section className="meet">
-			<div className="container max-w-[1050px] px-0 max-[1280px]:px-5 max-[800px]:px-10+ max-[600px]:grid-cols-1 max-[600px]:flex-col-reverse items-center grid grid-cols-2 max-[600px]:gap-5">
+		<section className="meet w-full">
+			<div className="container px-2 max-xl:px-5 max-[800px]:px-10+ max-[600px]:grid-cols-1 max-[600px]:flex-col-reverse items-center grid grid-cols-2 max-[600px]:gap-5">
 				<div className="meet-left max-[600px]:flex max-[600px]:flex-col max-[600px]:justify-center max-[600px]:items-center max-[600px]:order-2">
 					<Title
 						types="showcase, normal_headline"

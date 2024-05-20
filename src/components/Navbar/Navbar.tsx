@@ -34,11 +34,13 @@ const Navbar = ({ logo, listItems }: props) => {
 	return (
 		<>
 			<div
-				className={`navbar-overlay ${isNavOpen ? "" : "hidden"}`}
+				className={`container navbar-overlay ${
+					isNavOpen ? "" : "hidden"
+				}`}
 				onClick={toggleNav}
 			></div>
 			<div
-				className={`navbar flex justify-between w-full ${
+				className={`container navbar flex justify-between w-full ${
 					isNavOpen ? "open" : ""
 				}`}
 			>
